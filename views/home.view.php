@@ -1,13 +1,13 @@
-<?php require base_path('views/partials/head.php') ?>
+<?php loadPartial('head') ?>
     <!-- Nav -->
 
-    <?php require base_path('views/partials/navbar.php') ?>
+    <?php loadPartial('navbar') ?>
     <!-- Showcase -->
     
-    <?php require base_path('views/partials/showcase-search.php') ?>
+    <?php loadPartial('showcase-search') ?>
     <!-- Top Banner -->
 
-    <?php require base_path('views/partials/top-banner.php') ?>
+    <?php loadPartial('top-banner') ?>
     <!-- Job Listings -->
     <section>
       <div class="container mx-auto p-4 mt-4">
@@ -200,7 +200,7 @@
 
        <!-- Bottom Banner -->
             
-<?php require base_path('views/partials/bottom-banner.php') ?>
+<?php loadPartial('bottom-banner') ?>
      
      
-<?php require base_path('views/partials/footer.php') ?>
+<?php loadPartial('footer') ?>
