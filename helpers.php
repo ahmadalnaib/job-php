@@ -55,3 +55,35 @@
     }
 
  }
+
+
+
+ /**
+  * 
+  * @param  mixed $value
+  * @return void
+  */
+
+   function inspect($value) {
+       echo '<pre>';
+       var_dump($value);
+       echo '</pre>';
+      
+   }
+
+
+
+
+ /**
+  * 
+  * Inspect and die
+  * @return void
+  */
+
+  function inspectAndDie($value) {
+    echo '<pre>';
+    var_dump($value);
+    echo '</pre>';
+    die();
+   
+}
